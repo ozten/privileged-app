@@ -16,5 +16,11 @@
   "developer": {
     "name": "Ozten",
     "url": "https://github.com/ozten/privileged-app"
+  },
+  "permissions": {
+    "device-storage:pictures": {
+      "description": "Your photos",
+      "access": "readonly"
+    }
   }
 }

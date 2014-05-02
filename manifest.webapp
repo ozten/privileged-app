@@ -3,7 +3,7 @@
   "description": "A testing privileged app",
   "version": "1",
   "package_path": "https://ozten.github.io/privileged-app/package.zip",
-  "size": 15437,
+  "size": 15490,
   "type": "privileged",
   "icons": {
     "60": "/i/privileged60.jpg",
@@ -17,5 +17,11 @@
   "developer": {
     "name": "Ozten",
     "url": "https://github.com/ozten/privileged-app"
+  },
+  "permissions": {
+    "device-storage:pictures": {
+      "description": "Your photos",
+      "access": "readonly"
+    }
   }
 }
