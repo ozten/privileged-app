@@ -1,0 +1,20 @@
+{
+  "name": "Privileged",
+  "description": "A testing privileged app",
+  "version": "1",
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "icons": {
+    "60": "/i/privileged60.jpg",
+    "128": "/i/privileged128.jpg",
+    "256": "/i/privileged256.jpg"
+  },
+  "default_locale": "en",
+  "locales": {
+    "en": {}
+  },
+  "developer": {
+    "name": "Ozten",
+    "url": "https://github.com/ozten/privileged-app"
+  }
+}

@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <p>Privileged app installation page</p>
+    <button>Install</button>
+    <script>
+var manifestUrl = 'https://ozten.github.io/privileged-app/manifest.webapp';
+var btn = document.getElementsByTagName('button')[0];
+btn.addEventListener('click', function(e) {
+  var req = navigator.mozApps.installPackage(manifestUrl);
+  req.onerror = function() {
+    alert('Error installing ' + this.error.name);
+  };
+}, false);    
+    </script>
+  </body>
+</html>
